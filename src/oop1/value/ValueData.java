@@ -1,4 +1,4 @@
-package oop1;
+package oop1.value;
 
 public class ValueData {
     int value;

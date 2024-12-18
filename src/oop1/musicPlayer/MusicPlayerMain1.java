@@ -1,4 +1,4 @@
-package oop1;
+package oop1.musicPlayer;
 
 /**
  * 절차 지향 프로그래밍
