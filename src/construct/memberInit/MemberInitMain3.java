@@ -1,4 +1,4 @@
-package construct.membetInit;
+package construct.memberInit;
 
 public class MemberInitMain3 {
     public static void main(String[] args) {

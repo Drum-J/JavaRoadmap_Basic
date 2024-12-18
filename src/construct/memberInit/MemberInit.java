@@ -1,4 +1,4 @@
-package construct.membetInit;
+package construct.memberInit;
 
 public class MemberInit {
     String name;
