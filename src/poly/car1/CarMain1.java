@@ -13,5 +13,12 @@ public class CarMain1 {
         Model3Car model3Car = new Model3Car();
         driver.setCar(model3Car);
         driver.drive();
+
+        //Driver의 코드는 변경하지 않고 NewCar를 새로 만들어 적용했다! OCP 원칙
+        //NewCar(확장)은 열려있고(Open) Driver의 코드 수정은 닫혀있다(Close)
+        //차량 변경(Model3 -> NewCar)
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
+        driver.drive();
     }
 }
